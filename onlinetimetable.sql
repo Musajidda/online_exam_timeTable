@@ -97,10 +97,12 @@ CREATE TABLE `timetable` (
 -- Dumping data for table `timetable`
 --
 
+
 INSERT INTO `timetable` (`id`, `course_id`, `date_`, `day_`, `venue`, `from_`, `to_`, `invigilator_id_i`, `invigilator_id_ii`, `invigilator_id_iii`) VALUES
 (3, '16', '2025-07-06', 'Thursday', 'SLT', '08:30', '10:30', '7', '6', '4'),
 (4, '14', '2025-07-07', 'Friday', 'MLK', '10:00', '12:00', '7', '3', '1'),
-(6, '11', '2025-07-10', 'Monday', 'MLK', '14:00', '16:00', '4', '5', '1');
+(6, '11', '2025-07-10', 'Monday', 'MLK', '14:00', '16:00', '4', '5', '1')
+(5, '11', '2025-07-13', 'Wednesday', 'OUTHALL', '6:00', '8:00', '6', '6', '1');
 
 -- --------------------------------------------------------
 
