@@ -1,7 +1,7 @@
 <?php  
 session_start();
 
-//check if user is not logged in
+//check if user is not logged in the follow the else way
 if(!isset($_SESSION["user"])){
     header("location: login.php");
 }
