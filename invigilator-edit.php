@@ -6,7 +6,7 @@ if(!isset($_SESSION["user"])){
     header("location: login.php");
 }
 
-//check if logged in as user\
+//check if logged in as user\hghjldkigkjg
 
 /*  if($_SESSION["user"]["role"] == "user"){
     header("location: all-questions.php");
